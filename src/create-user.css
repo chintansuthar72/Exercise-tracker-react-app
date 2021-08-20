@@ -1,0 +1,55 @@
+.create-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.title-create-user {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: red;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit > input {
+    color: #fff;
+    background-color: blue;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 7px;
+    font-size: 3vh;
+}
+
+.username {
+    color: black;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username > input {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 20px;
+    width: 20vw;
+    font-size: 20px;
+    margin-left:10px;
+    padding: 4px;
+}
+
+.user-form {
+    display: flex;
+}
